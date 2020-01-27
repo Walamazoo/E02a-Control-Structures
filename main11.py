@@ -9,10 +9,12 @@ def choose_color(last_color):
     while c == last_color:
         c = random.choice(colors)
     return c
-
-
-
-
+'''
+Lines 6-11 define a method called choose_color that takes an argument called last_color.
+It chooses a color from the list colors and returns it.
+However, if the color it choose is the same as last_color, the previous color, it will loop until it isn't.
+This ensures that match_color is not the same two times in a row.
+'''
 print('Greetings!')
 play_again = ''
 best_count = sys.maxsize            # the biggest number

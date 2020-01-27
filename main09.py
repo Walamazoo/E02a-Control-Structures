@@ -3,7 +3,9 @@ import sys
 
 assert sys.version_info >= (3,7), "This script requires at least Python 3.7"
 
-
+#Line 13 increments count by 1 each time the loop happens.
+#Count is a variable that tracks the number of tries the user takes to get the question right.
+#Line 23 prints the string, instering count where the {} are.
 print('Greetings!')
 color = ''
 count = 0
