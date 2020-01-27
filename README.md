@@ -14,74 +14,112 @@ Comments in Python are marked by a # sign (for single-line comments) or three ma
 Edit README.md to answer the following questions:
 
 - Open main01.py. Before running it, what do you expect this program to do?
-#I expect the program to print 'Greetings!,' and 'What is my favorite color?' on a new line.
-#It will then wait for input.
+
+I expect the program to print 'Greetings!,' and 'What is my favorite color?' on a new line. It will then wait for input.
+
   - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
   - What do you think the program did with what you typed in answer to the question?
-#The program did as I expected.
-#I think that when I typed my answer, the program simply completed that line of code and moved on, reaching the end.
+
+The program did as I expected.
+
+I think that when I typed my answer, the program simply completed that line of code and moved on, reaching the end.
 
 - Open main02.py. Before running it, describe how this is different than main01.py.
   - What do you think the color = input() will do?
-#This program is different because it will store the input in color, and then print it.
-#color=input() assigns whatever the input is to the variable color.
+
+This program is different because it will store the input in color, and then print it.
+
+color=input() assigns whatever the input is to the variable color.
+
   - Run the program in the terminal and answer the question. Did the program do what you expected?
-#The program did as I expected.
+
+The program did as I expected.
 
 - Open main03.py. Before running it, describe how this is different than main02.py.
   - What is happening on lines 9–12?
   - Why are lines 10 and 12 indented?
-#This program is different because it contains if else statements.
-#Lines 9-12 make it so that different things will happen based on the input.
-#Lines 10 and 11 are indented because they are part of the blocks under if and else.
+
+This program is different because it contains if else statements.
+
+Lines 9-12 make it so that different things will happen based on the input.
+
+Lines 10 and 11 are indented because they are part of the blocks under if and else.
+
   - Run the program and answer the question. What happens if you don’t capitalize Red?
   - What does this tell you about "color"?
-#If Red is not capitalized, it is treated as wrong.
-#This tell us that variables, like color, are case-sensitive.
+
+If Red is not capitalized, it is treated as wrong.
+
+This tell us that variables, like color, are case-sensitive.
 
 - Open main04.py. Before running it, describe how this is different than main03.py.
   - What problem is this trying to solve?
-#This program is different because it accepts multiple correct answers.
-#This is trying to solve the issue of users not capitalizing.
+
+This program is different because it accepts multiple correct answers.
+
+This is trying to solve the issue of users not capitalizing.
+
   - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-#If another capitilization squeme is used, it is treated as wrong.
-#This tells us the color must be an exact macth to be correct.
+
+If another capitilization squeme is used, it is treated as wrong.
+
+This tells us the color must be an exact macth to be correct.
 
 - Open main05.py. What do you expect line 9 to do?
   - What problem is it trying to solve?
-#I expect line 9 to take the input and make all letters lowercase.
-#This is to solve the problem of capital letters being present.
+
+I expect line 9 to take the input and make all letters lowercase.
+
+This is to solve the problem of capital letters being present.
+
   - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
-#If a space is added before or after, it is treated as wrong.
-#This tells us that spaces are counted as characters.
+
+If a space is added before or after, it is treated as wrong.
+
+This tells us that spaces are counted as characters.
 
  - Open main06.py. How is line 9 different than in main05.py?
    - What would you guess .strip() is doing?
-#Line 9 is now different because it now also calls the .strip() method
-#This will remove spaces at the beginning and end of the input.
+
+Line 9 is now different because it now also calls the .strip() method
+
+This will remove spaces at the beginning and end of the input.
+
    - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-#The logic will still be broken if the user misspells red or otherwise has another character in the input.
+
+The logic will still be broken if the user misspells red or otherwise has another character in the input.
 
  - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
    - What is happening on line 12?
-#This program is different because it includes an elif.
-#Line 12 accounts for a certain input and gives an alternate ouput.
+
+This program is different because it includes an elif.
+
+Line 12 accounts for a certain input and gives an alternate ouput.
+
    - Run the program and answer the question.
 
  - Open main08.py. What is the purpose of line 9?
    - Why are lines 10–17 indented?
-#Line 9 will loop the code in its block until color==red.
-#Lines 10-17 are indented because they are in line 10's block.
+
+Line 9 will loop the code in its block until color==red.
+
+Lines 10-17 are indented because they are in line 10's block.
+
    - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)?
    - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
-#With the change, if the input is not red, an infinite loop will occur.
+
+With the change, if the input is not red, an infinite loop will occur.
 
  - Open main09.py. What is happening on line 13?
    - What is the purpose of “count”?
    - What is happening on line 22?
-#Line 13 increments count by 1 each time the loop happens.
-#Count is a variable that tracks the number of tries the user takes to get the question right.
-#Line 22 prints the string, instering count where the {} are.
+
+Line 13 increments count by 1 each time the loop happens.
+
+Count is a variable that tracks the number of tries the user takes to get the question right.
+
+Line 22 prints the string, instering count where the {} are.
+
    - Run the program.
 
 
